@@ -1,0 +1,23 @@
+{
+  "requestHeaderOut": {
+    "Header": {
+      "systemId": "IntercomBank",
+      "messageId":"${=java.util.UUID.randomUUID()}",
+      "invokerDateTime": "2020-09-14",
+      "securityCredential": "",
+      "destination": {
+        "name": "ProductosDetalleApiGroup",
+        "namespace": "http://www.serfinansa.co/productodetalle/external/1.0",
+        "operation": "detalleProductos"
+      }
+    },
+    "Body": {
+      "detalleProducto": {
+        "tipoId": "1",
+        "idCliente": "72005948",
+        "numProducto": "233000000037",
+        "tipoProducto": "01"
+      }
+    }
+  }
+}

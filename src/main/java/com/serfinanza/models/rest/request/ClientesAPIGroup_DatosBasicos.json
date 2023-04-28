@@ -1,0 +1,22 @@
+{
+    "requestHeaderOut": {
+        "Header": {
+            "systemId": "IntercomBank",
+            "messageId": "${=java.util.UUID.randomUUID()}",
+            "invokerDateTime":"2020-02-01",
+            "securityCredential": "",
+            "destination": {
+                "name": "SeguridadApiGroup",
+                "namespace": "http://www.serfinansa.co/seguridad/external/1.0",
+                "operation": "generaPIN"
+            }
+        },
+        "Body": {
+            "generaPIN": {
+                "tipoId": "1",
+                "idCliente": "1143136947",
+                "celular": "3017450277"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{"responseHeaderOut": {
+  "Header":    {
+    "systemId": "IntercomBank",
+    "messageId": "101c6f2b-94d9-43c3-b183-bf1f6995a60c",
+    "invokerDateTime": "2020-09-14",
+    "responseStatus": {"statusCode": "SUCCESS"},
+    "destination":       {
+      "name": "ProductosDetalleApiGroup",
+      "namespace": "http://www.serfinansa.co/productodetalle/external/1.0",
+      "operation": "detalleProductos"
+    }
+  },
+  "Body":    {
+    "respuesta":       {
+      "codigo": "00",
+      "descripcion": "Transacción exitosa"
+    },
+    "cuentas":       {
+      "estado": "Inactiva",
+      "idCliente": "405",
+      "fechaEmision": "2019/08/19",
+      "nroCuenta": "212000005561",
+      "saldoCanje": "0",
+      "saldoDisp": "57610125.53",
+      "saldoMin": "0",
+      "saldoNeto": "57610125,53",
+      "saldoRetenido": "0",
+      "saldoTotal": "57610125.53"
+    }
+  }
+}}

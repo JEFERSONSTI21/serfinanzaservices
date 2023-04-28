@@ -1,0 +1,409 @@
+{
+    "responseHeaderOut":{
+        "Header":{
+            "systemId":"HelpiPlus",
+            "messageId":"05789366-78ff-48aa-937c-6021fb0c8c2f",
+            "invokerDateTime":"2020-10-27",
+            "responseStatus":{
+                "statusCode":"SUCCESS"
+            },
+            "destination":{
+                "name":"ProductosApiGroup",
+                "namespace":"http://www.serfinansa.co/productos/external/2.0",
+                "operation":"resumenProductos"
+            }
+        },
+        "Body":{
+            "respuesta":{
+                "codigo":"01",
+                "descripcion":"Ocurrio un error al consultar uno de los productos"
+            },
+            "productos":[
+                {
+                    "numProducto":"212000008509",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS DE AHORROS",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA ACTIVA",
+                    "fechaEmision":"2023/02/21",
+                    "saldo":"1257522.59",
+                    "producto":"2120",
+                    "subProducto":"CAHP",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000001078",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA ACTIVA",
+                    "fechaEmision":"2021/06/02",
+                    "saldo":"464823.04",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"212000007216",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS DE AHORROS",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA ACTIVA",
+                    "fechaEmision":"2021/10/30",
+                    "saldo":"2816643.44",
+                    "producto":"2120",
+                    "subProducto":"CAHP",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000003260",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA ACTIVA",
+                    "fechaEmision":"2024/09/03",
+                    "saldo":"0.00",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000000188",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2024/08/12",
+                    "saldo":"5595501.47",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000001926",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2022/05/02",
+                    "saldo":"0.00",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000001935",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2022/05/02",
+                    "saldo":"0.00",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000001864",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2022/05/02",
+                    "saldo":"0.00",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000001873",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2022/05/02",
+                    "saldo":"0.00",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000001891",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2022/05/02",
+                    "saldo":"0.00",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000001908",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2022/05/02",
+                    "saldo":"0.00",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"212000007780",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS DE AHORROS",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2022/05/30",
+                    "saldo":"0.00",
+                    "producto":"2120",
+                    "subProducto":"CAHP",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"212000008287",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS DE AHORROS",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2022/09/30",
+                    "saldo":"0.00",
+                    "producto":"2120",
+                    "subProducto":"CAHP",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000002610",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2022/11/23",
+                    "saldo":"0.00",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000003036",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2023/03/07",
+                    "saldo":"0.00",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000003054",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2023/03/07",
+                    "saldo":"0.00",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"251000000176",
+                    "codProducto":"04",
+                    "nomProducto":"DEPÓSITOS ELECTRÓNICOS",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 1",
+                    "fechaEmision":"2023/12/20",
+                    "saldo":"202803.23",
+                    "producto":"2510",
+                    "subProducto":"DBMO",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000001882",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 2",
+                    "fechaEmision":"2022/05/02",
+                    "saldo":"5112.48",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"216000002173",
+                    "codProducto":"04",
+                    "nomProducto":"CUENTAS AHORROS TRAMITE SIMPLIFICADO",
+                    "tipoProducto":"05",
+                    "categoria":"05",
+                    "estado":"CUENTA INACTIVA 2",
+                    "fechaEmision":"2022/05/30",
+                    "saldo":"42.34",
+                    "producto":"2160",
+                    "subProducto":"CATS",
+                    "numTarjeta":{
+
+                    }
+                },
+                {
+                    "numProducto":"5432800000037879",
+                    "codProducto":"97",
+                    "nomProducto":"TC DIGITAL",
+                    "tipoProducto":"04",
+                    "categoria":"04",
+                    "estado":"Normal",
+                    "fechaEmision":"2021/06/23",
+                    "disponible":"6360000",
+                    "saldo":"0"
+                },
+                {
+                    "numProducto":"5432804246154456",
+                    "codProducto":"60",
+                    "nomProducto":"TCO MC CLASICA",
+                    "tipoProducto":"04",
+                    "categoria":"04",
+                    "estado":"Bloqueo al despacho",
+                    "fechaEmision":"2022/04/12",
+                    "disponible":"12000000",
+                    "saldo":"0"
+                },
+                {
+                    "numProducto":"5432804732540069",
+                    "codProducto":"62",
+                    "nomProducto":"TCO MC CLAS NCM",
+                    "tipoProducto":"04",
+                    "categoria":"04",
+                    "estado":"Normal",
+                    "fechaEmision":"2013/05/03",
+                    "disponible":"4668000",
+                    "saldo":"0"
+                },
+                {
+                    "numProducto":"5432805054174486",
+                    "codProducto":"60",
+                    "nomProducto":"TCO MC CLASICA",
+                    "tipoProducto":"04",
+                    "categoria":"04",
+                    "estado":"Bloqueo al despacho",
+                    "fechaEmision":"2020/10/10",
+                    "disponible":"6000000",
+                    "saldo":"0"
+                },
+                {
+                    "numProducto":"8999000020354375",
+                    "codProducto":"CR",
+                    "nomProducto":"CRED ROTATIVO",
+                    "tipoProducto":"04",
+                    "categoria":"04",
+                    "estado":"Normal",
+                    "fechaEmision":"2020/11/20",
+                    "disponible":"300000",
+                    "saldo":"0"
+                },
+                {
+                    "numProducto":"8999000021275579",
+                    "codProducto":"CR",
+                    "nomProducto":"CRED ROTATIVO",
+                    "tipoProducto":"04",
+                    "categoria":"04",
+                    "estado":"Normal",
+                    "fechaEmision":"2021/06/04",
+                    "disponible":"1000000",
+                    "saldo":"0"
+                },
+                {
+                    "numProducto":"8999000021275702",
+                    "codProducto":"B12",
+                    "nomProducto":"LIBRE INVERSION",
+                    "tipoProducto":"04",
+                    "categoria":"04",
+                    "estado":"Normal",
+                    "fechaEmision":"2022/04/11",
+                    "disponible":"5000000",
+                    "saldo":"0"
+                },
+                {
+                    "numProducto":"8999020001441363",
+                    "codProducto":"CR2",
+                    "nomProducto":"CRED ROTA. TP",
+                    "tipoProducto":"04",
+                    "categoria":"04",
+                    "estado":"Normal",
+                    "fechaEmision":"2014/04/26",
+                    "disponible":"5300000",
+                    "saldo":"0"
+                },
+                {
+                    "numProducto":"8999020001580178",
+                    "codProducto":"CR3",
+                    "nomProducto":"ROT PLUS",
+                    "tipoProducto":"04",
+                    "categoria":"04",
+                    "estado":"Bloqueo al despacho",
+                    "fechaEmision":"2021/06/04",
+                    "disponible":"1000000",
+                    "saldo":"0"
+                }
+            ]
+        }
+    }
+}

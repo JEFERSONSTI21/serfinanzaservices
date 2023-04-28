@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Consumo servicio" tests="2" skipped="0" failures="2" errors="0" timestamp="2022-09-15T12:49:55" hostname="DESKTOP-DR2G2B3" time="4.945">
+  <properties/>
+  <testcase name="Validacion servicios #1" classname="Consumo servicio" time="4.659">
+    <failure message="java.lang.AssertionError: &lt;html&gt;&#10;  &lt;head&gt;&#10;    &lt;title&gt;Not found&lt;/title&gt;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;h1&gt;Not found&lt;/h1&gt;&#10;    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10; expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError">java.lang.AssertionError: &lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Not found&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Not found&lt;/h1&gt;
+    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+ expected:&lt;200&gt; but was:&lt;404&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at com.serfinanza.steps.CreacionServicioStep.validacionServicio(CreacionServicioStep.java:54)
+	at com.serfinanza.steps.CreacionServicioStep$ByteBuddy$yQ0Et6mE.validacionServicio$accessor$UDnZPnc0(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at com.serfinanza.steps.CreacionServicioStep$ByteBuddy$yQ0Et6mE.validacionServicio(Unknown Source)
+	at com.serfinanza.definitions.ServicioDefinition.se_valida_que_el_response_sean_iguales(ServicioDefinition.java:29)
+	at ✽.se valida que el response sean iguales /rest/response/ProductoDetalleApiGroup_DetalleCRO.json(file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature:7)
+</failure>
+  </testcase>
+  <testcase name="Validacion servicios #2" classname="Consumo servicio" time="0.286">
+    <failure message="java.lang.AssertionError: &lt;html&gt;&#10;  &lt;head&gt;&#10;    &lt;title&gt;Not found&lt;/title&gt;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;h1&gt;Not found&lt;/h1&gt;&#10;    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10; expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError">java.lang.AssertionError: &lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Not found&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Not found&lt;/h1&gt;
+    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+ expected:&lt;200&gt; but was:&lt;404&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at com.serfinanza.steps.CreacionServicioStep.validacionServicio(CreacionServicioStep.java:54)
+	at com.serfinanza.steps.CreacionServicioStep$ByteBuddy$yQ0Et6mE.validacionServicio$accessor$UDnZPnc0(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at com.serfinanza.steps.CreacionServicioStep$ByteBuddy$yQ0Et6mE.validacionServicio(Unknown Source)
+	at com.serfinanza.definitions.ServicioDefinition.se_valida_que_el_response_sean_iguales(ServicioDefinition.java:29)
+	at ✽.se valida que el response sean iguales /soap/response/OlimpiaServiceGroup_adicionarSolicitud.xml(file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature:7)
+</failure>
+  </testcase>
+  <system-out><![CDATA[URL=http://aceserfinanza.server:7801/esb/restChannelAdapter
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Server: IBM App Connect Enterprise
+Date: Thu, 15 Sep 2022 12:49:59 GMT
+Content-Length: 153
+
+<html>
+  <head>
+    <title>Not found</title>
+  </head>
+  <body>
+    <h1>Not found</h1>
+    <p>The document you requested can not be found on this server.</p>
+  </body>
+</html>
+------------------------
+<html>
+  <head>
+    <title>Not found</title>
+  </head>
+  <body>
+    <h1>Not found</h1>
+    <p>The document you requested can not be found on this server.</p>
+  </body>
+</html>
+URL=http://192.168.1.117:7802/esb/channelAdapter/V3
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Server: IBM App Connect Enterprise
+Date: Thu, 15 Sep 2022 12:49:59 GMT
+Content-Length: 153
+
+<html>
+  <head>
+    <title>Not found</title>
+  </head>
+  <body>
+    <h1>Not found</h1>
+    <p>The document you requested can not be found on this server.</p>
+  </body>
+</html>
+------------------------
+<html>
+  <head>
+    <title>Not found</title>
+  </head>
+  <body>
+    <h1>Not found</h1>
+    <p>The document you requested can not be found on this server.</p>
+  </body>
+</html>
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Validacion servicios(consumo-servicio;validacion-servicios)
+--------------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.model.TestOutcome - SetUserStory Consumo servicio
+[Test worker] INFO net.thucydides.core.model.TestOutcome - SetUserStory Consumo servicio
+[Fatal Error] :1:1: Content is not allowed in prolog.
+[Test worker] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+Validacion servicios
+-----------------------------------------------------------------------
+[Test worker] ERROR  -     Test failed at step: Validacion servicio: src/main/java/com/serfinanza/models/rest/response/ProductoDetalleApiGroup_DetalleCRO.json
+[Test worker] ERROR  -     <html>  <head>    <title>Not found</title>  </head>  <body>    <h1>Not found</h1>    <p>The document you requested can not be found on this server.</p>  </body></html> expected:<200> but was:<404>
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature
+[Test worker] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+Validacion servicios
+-----------------------------------------------------------------------
+[Test worker] ERROR  -     Test failed at step: Validacion servicio: src/main/java/com/serfinanza/models/soap/response/OlimpiaServiceGroup_adicionarSolicitud.xml
+[Test worker] ERROR  -     <html>  <head>    <title>Not found</title>  </head>  <body>    <h1>Not found</h1>    <p>The document you requested can not be found on this server.</p>  </body></html> expected:<200> but was:<404>
+]]></system-err>
+</testsuite>

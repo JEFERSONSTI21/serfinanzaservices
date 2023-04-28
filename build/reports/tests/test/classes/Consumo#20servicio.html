@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Consumo servicio</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Consumo servicio</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Consumo servicio</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">2</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.945s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Validacion servicios #1"></a>
+<h3 class="failures">Validacion servicios #1</h3>
+<span class="code">
+<pre>java.lang.AssertionError: &lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Not found&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Not found&lt;/h1&gt;
+    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+ expected:&lt;200&gt; but was:&lt;404&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at com.serfinanza.steps.CreacionServicioStep.validacionServicio(CreacionServicioStep.java:54)
+	at com.serfinanza.steps.CreacionServicioStep$ByteBuddy$yQ0Et6mE.validacionServicio$accessor$UDnZPnc0(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at com.serfinanza.steps.CreacionServicioStep$ByteBuddy$yQ0Et6mE.validacionServicio(Unknown Source)
+	at com.serfinanza.definitions.ServicioDefinition.se_valida_que_el_response_sean_iguales(ServicioDefinition.java:29)
+	at ✽.se valida que el response sean iguales /rest/response/ProductoDetalleApiGroup_DetalleCRO.json(file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature:7)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Validacion servicios #2"></a>
+<h3 class="failures">Validacion servicios #2</h3>
+<span class="code">
+<pre>java.lang.AssertionError: &lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Not found&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Not found&lt;/h1&gt;
+    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+ expected:&lt;200&gt; but was:&lt;404&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at com.serfinanza.steps.CreacionServicioStep.validacionServicio(CreacionServicioStep.java:54)
+	at com.serfinanza.steps.CreacionServicioStep$ByteBuddy$yQ0Et6mE.validacionServicio$accessor$UDnZPnc0(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at com.serfinanza.steps.CreacionServicioStep$ByteBuddy$yQ0Et6mE.validacionServicio(Unknown Source)
+	at com.serfinanza.definitions.ServicioDefinition.se_valida_que_el_response_sean_iguales(ServicioDefinition.java:29)
+	at ✽.se valida que el response sean iguales /soap/response/OlimpiaServiceGroup_adicionarSolicitud.xml(file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature:7)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Validacion servicios #1</td>
+<td class="failures">4.659s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Validacion servicios #2</td>
+<td class="failures">0.286s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>URL=http://aceserfinanza.server:7801/esb/restChannelAdapter
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Server: IBM App Connect Enterprise
+Date: Thu, 15 Sep 2022 12:49:59 GMT
+Content-Length: 153
+
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Not found&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Not found&lt;/h1&gt;
+    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+------------------------
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Not found&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Not found&lt;/h1&gt;
+    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+URL=http://192.168.1.117:7802/esb/channelAdapter/V3
+HTTP/1.1 404 Not Found
+Content-Type: text/html;charset=utf-8
+Server: IBM App Connect Enterprise
+Date: Thu, 15 Sep 2022 12:49:59 GMT
+Content-Length: 153
+
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Not found&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Not found&lt;/h1&gt;
+    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+------------------------
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Not found&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Not found&lt;/h1&gt;
+    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Validacion servicios(consumo-servicio;validacion-servicios)
+--------------------------------------------------------------------------------
+[Test worker] INFO net.thucydides.core.model.TestOutcome - SetUserStory Consumo servicio
+[Test worker] INFO net.thucydides.core.model.TestOutcome - SetUserStory Consumo servicio
+[Fatal Error] :1:1: Content is not allowed in prolog.
+[Test worker] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+Validacion servicios
+-----------------------------------------------------------------------
+[Test worker] ERROR  -     Test failed at step: Validacion servicio: src/main/java/com/serfinanza/models/rest/response/ProductoDetalleApiGroup_DetalleCRO.json
+[Test worker] ERROR  -     &lt;html&gt;  &lt;head&gt;    &lt;title&gt;Not found&lt;/title&gt;  &lt;/head&gt;  &lt;body&gt;    &lt;h1&gt;Not found&lt;/h1&gt;    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;  &lt;/body&gt;&lt;/html&gt; expected:&lt;200&gt; but was:&lt;404&gt;
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature
+[Test worker] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+Validacion servicios
+-----------------------------------------------------------------------
+[Test worker] ERROR  -     Test failed at step: Validacion servicio: src/main/java/com/serfinanza/models/soap/response/OlimpiaServiceGroup_adicionarSolicitud.xml
+[Test worker] ERROR  -     &lt;html&gt;  &lt;head&gt;    &lt;title&gt;Not found&lt;/title&gt;  &lt;/head&gt;  &lt;body&gt;    &lt;h1&gt;Not found&lt;/h1&gt;    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;  &lt;/body&gt;&lt;/html&gt; expected:&lt;200&gt; but was:&lt;404&gt;
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.2</a> at 15/09/2022, 7:50:01 a. m.</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+    "requestHeaderOut": {
+        "Header": {
+            "systemId": "HelpiPlus",
+            "messageId": "${=java.util.UUID.randomUUID()}",
+            "invokerDateTime": "2020-10-27",
+            "securityCredential": "",
+            "destination": {
+                "name": "ProductosApiGroup",
+                "namespace": "http://www.serfinansa.co/productos/external/2.0",
+                "operation": "resumenProductos"
+            }
+        },
+        "Body": {
+            "resumenProductos": {
+                "tipoId": "1",
+                "idCliente": "1129564979"
+            }
+        }
+    }
+}

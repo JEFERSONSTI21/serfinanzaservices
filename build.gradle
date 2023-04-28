@@ -1,0 +1,46 @@
+repositories {
+    mavenCentral()
+
+}
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.80")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+
+
+dependencies {
+    implementation 'net.serenity-bdd:serenity-junit:2.0.80'
+    implementation 'net.serenity-bdd:serenity-cucumber:3.0.1'
+    implementation 'net.serenity-bdd:serenity-core:2.0.80'
+// https://mvnrepository.com/artifact/net.serenity-bdd/serenity-reports
+    implementation group: 'net.serenity-bdd', name: 'serenity-reports', version: '2.6.0'
+
+
+    implementation 'org.slf4j:slf4j-simple:1.7.7'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.1'
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.13.1'
+    implementation group: 'org.json', name: 'json', version: '20211205'
+    testImplementation group: 'org.jvnet.jaxb2.maven2', name: 'maven-jaxb2-plugin-testing', version: '0.14.0'
+
+    // Integracion entre Serenity y Rest-Assured
+    implementation 'net.serenity-bdd:serenity-rest-assured:2.0.80'
+// Libreria para manejar objetos JSon desde Java hecha por apache
+    implementation 'org.json:json:20180813'
+}
+
+test {
+    ignoreFailures = true
+}

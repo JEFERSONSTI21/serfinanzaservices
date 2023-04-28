@@ -1,0 +1,21 @@
+{
+    "requestHeaderOut": {
+        "Header": {
+            "systemId": "IntercomBank",
+            "messageId": "${=java.util.UUID.randomUUID()}",
+            "invokerDateTime": "2021-03-01",
+            "securityCredential": "",
+            "destination": {
+                "name": "ClientesServiceGroup",
+                "namespace": "http://www.serfinansa.co/clientes/external/1.0",
+                "operation": "datosBasicos"
+            }
+        },
+        "Body": {
+            "datosBasicos": {
+                "tipoId": "1",
+                "idCliente": "1129564979"
+            }
+        }
+    }
+}

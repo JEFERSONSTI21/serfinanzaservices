@@ -1,0 +1,45 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://pragma.co/ents/common/BaseMessageFormat/V1" xmlns:adic="http://www.serfinansa.co/Olimpia/external/1.0/adicionarSolicitud">
+    <soapenv:Header>
+        <v1:requestHeaderOut>
+            <systemId>1</systemId>
+            <messageId>${=java.util.UUID.randomUUID()}</messageId>
+            <!--Optional:-->
+            <invokerDateTime>?</invokerDateTime>
+            <!--Optional:-->
+            <securityCredential>
+                <userName>?</userName>
+                <!--Optional:-->
+                <userToken>?</userToken>
+            </securityCredential>
+            <!--Optional:-->
+            <destination>
+                <!--Optional:-->
+                <name>OlimpiaServiceGroup</name>
+                <!--Optional:-->
+                <namespace>http://www.serfinansa.co/Olimpia/external/1.0</namespace>
+                <!--Optional:-->
+                <operation>adicionarSolicitud</operation>
+            </destination>
+            <!--Optional:-->
+            <classification>
+                <!--1 or more repetitions:-->
+                <classification>TEST</classification>
+            </classification>
+        </v1:requestHeaderOut>
+    </soapenv:Header>
+    <soapenv:Body>
+        <adic:adicionarSolicitudRequest>
+            <IdCliente>20</IdCliente>
+            <IdConvenioAutenticacion>1fe971ff-3d13-4743-b46a-bf5804deddb9</IdConvenioAutenticacion>
+            <IdSolicitudCliente>72292090</IdSolicitudCliente>
+            <UsuarioCreacion>cure.prueba@mdmserfinansa.com.co</UsuarioCreacion>
+            <TipoDocumentoCandidato>CC</TipoDocumentoCandidato>
+            <Candidato>72292090</Candidato>
+            <codigoProducto>1</codigoProducto>
+            <codigoOficina>0001</codigoOficina>
+            <Maquina>d0:4e:50:a9:51:22</Maquina>
+            <TipoIdentidadMaquina>2</TipoIdentidadMaquina>
+            <TiempoValidez>30</TiempoValidez>
+        </adic:adicionarSolicitudRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

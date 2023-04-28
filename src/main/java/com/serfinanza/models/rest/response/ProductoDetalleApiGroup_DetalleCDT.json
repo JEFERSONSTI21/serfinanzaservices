@@ -1,0 +1,28 @@
+{"responseHeaderOut": {
+  "Header":    {
+    "systemId": "IntercomBank",
+    "messageId": "d58237fa-d2e2-4db8-8db2-d89350c43158",
+    "invokerDateTime": "2020-09-14",
+    "responseStatus": {"statusCode": "SUCCESS"},
+    "destination":       {
+      "name": "ProductosDetalleApiGroup",
+      "namespace": "http://www.serfinansa.co/productodetalle/external/1.0",
+      "operation": "detalleProductos"
+    }
+  },
+  "Body": {"respuesta":    {
+    "codigo": "00",
+    "descripcion": "Transacción exitosa",
+    "CDT":       {
+      "duracion": "360 D",
+      "frecuenciaPagoInteres": "30 D",
+      "tasaNominal": "5.13",
+      "valorInteres": "2215189.20",
+      "valorInteresNeto": "2215189.20",
+      "modalidadInteres": "Al Vencimiento Comercial",
+      "tasaEfectiva": "5.25",
+      "valorRetencion": "0",
+      "fechaVencimiento": "20250903"
+    }
+  }}
+}}

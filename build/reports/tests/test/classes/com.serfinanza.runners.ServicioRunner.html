@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.serfinanza.runners.ServicioRunner</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.serfinanza.runners.ServicioRunner</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.serfinanza.runners.html">com.serfinanza.runners</a> &gt; ServicioRunner</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">0</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">-</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">-</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+?[31mFailed scenarios:?[0m
+file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature:11 # Validacion servicios
+file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature:12 # Validacion servicios
+
+2 Scenarios (?[31m2 failed?[0m)
+4 Steps (?[31m2 failed?[0m, ?[32m2 passed?[0m)
+0m5,243s
+
+
+java.lang.AssertionError: &lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Not found&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Not found&lt;/h1&gt;
+    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+ expected:&lt;200&gt; but was:&lt;404&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at com.serfinanza.steps.CreacionServicioStep.validacionServicio(CreacionServicioStep.java:54)
+	at com.serfinanza.steps.CreacionServicioStep$ByteBuddy$yQ0Et6mE.validacionServicio$accessor$UDnZPnc0(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at com.serfinanza.steps.CreacionServicioStep$ByteBuddy$yQ0Et6mE.validacionServicio(Unknown Source)
+	at com.serfinanza.definitions.ServicioDefinition.se_valida_que_el_response_sean_iguales(ServicioDefinition.java:29)
+	at ?.se valida que el response sean iguales /rest/response/ProductoDetalleApiGroup_DetalleCRO.json(file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature:7)
+
+java.lang.AssertionError: &lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Not found&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Not found&lt;/h1&gt;
+    &lt;p&gt;The document you requested can not be found on this server.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+ expected:&lt;200&gt; but was:&lt;404&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at com.serfinanza.steps.CreacionServicioStep.validacionServicio(CreacionServicioStep.java:54)
+	at com.serfinanza.steps.CreacionServicioStep$ByteBuddy$yQ0Et6mE.validacionServicio$accessor$UDnZPnc0(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at com.serfinanza.steps.CreacionServicioStep$ByteBuddy$yQ0Et6mE.validacionServicio(Unknown Source)
+	at com.serfinanza.definitions.ServicioDefinition.se_valida_que_el_response_sean_iguales(ServicioDefinition.java:29)
+	at ?.se valida que el response sean iguales /soap/response/OlimpiaServiceGroup_adicionarSolicitud.xml(file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature:7)
+
+
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature
+[Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+[Test worker] INFO  - Test Suite Started: Consumo servicio
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@68f2363: Generating report for test outcome: Consumo servicio:Validacion servicios
+[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@3d7b3b18: Generating report for test outcome: Consumo servicio:Validacion servicios
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/JefersonPedraza/Desktop/Assist/serfinanzaservices/src/test/resources/features/servicio.feature
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.2</a> at 15/09/2022, 7:50:01 a. m.</p>
+</div>
+</div>
+</body>
+</html>

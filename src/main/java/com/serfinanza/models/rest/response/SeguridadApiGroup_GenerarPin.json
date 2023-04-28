@@ -1,0 +1,24 @@
+{
+    "responseHeaderOut":{
+        "Header":{
+            "systemId":"IntercomBank",
+            "messageId":"c7554541-8242-430f-b455-2d95241e9ca4",
+            "invokerDateTime":"2020-02-01",
+            "responseStatus":{
+                "statusCode":"SUCCESS"
+            },
+            "destination":{
+                "name":"SeguridadApiGroup",
+                "namespace":"http://www.serfinansa.co/seguridad/external/1.0",
+                "operation":"generaPIN"
+            }
+        },
+        "Body":{
+            "respuesta":{
+                "codigo":"00",
+                "descripcion":"Transacción exitosa",
+                "pin":"5139"
+            }
+        }
+    }
+}

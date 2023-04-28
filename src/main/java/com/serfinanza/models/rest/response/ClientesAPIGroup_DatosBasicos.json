@@ -1,0 +1,76 @@
+{
+  "responseHeaderOut":{
+    "Header":{
+      "systemId":"IntercomBank",
+      "messageId":"d26ce645-504f-4ae5-8e0c-c27e038e7a49",
+      "invokerDateTime":"2021-03-01",
+      "responseStatus":{
+        "statusCode":"SUCCESS"
+      },
+      "destination":{
+        "name":"ClientesServiceGroup",
+        "namespace":"http://www.serfinansa.co/clientes/external/1.0",
+        "operation":"datosBasicos"
+      }
+    },
+    "Body":{
+      "respuesta":{
+        "codigo":"00",
+        "descripcion":"Cliente existe en serfinanza",
+        "primerNombre":"JUAN",
+        "segundoNombre":" ",
+        "primerApellido":"TORDECILLA",
+        "segundoApellido":"CALDERON",
+        "paisNacimiento":"CO",
+        "estadoCivil":"1",
+        "ocupacion":"INDE",
+        "estudios":"05",
+        "profesion":"0001",
+        "actividadEconomica":"0081",
+        "direccionResidencia":"CL 72 54 35",
+        "barrioResidencia":{
+
+        },
+        "ciudadResidencia":"BARRANQUILLA",
+        "departamentoResidencia":"08",
+        "paisResidencia":"CO  COLOMBIA",
+        "telefonoPrincipal":"3043619681",
+        "correoElectronico":"M@BANCOSERFINANZA.COM",
+        "nombreEmpresa":{
+
+        },
+        "direccionEmpresa":{
+
+        },
+        "telefonoEmpresa":"0",
+        "ingresos":"0.00",
+        "egresos":"0.00",
+        "totalActivo":"0.00",
+        "totalPasivo":"0.00",
+        "operMonedaExt":"N",
+        "estratoVivienda":"2",
+        "personasACargo":"0",
+        "paisLabora":"CO",
+        "departamentoLabora":{
+
+        },
+        "ciudadLabora":{
+
+        },
+        "cargo":{
+
+        },
+        "fechaIngreso":"0/0/0",
+        "salario":"0.00",
+        "otrosIngresos":"0.00",
+        "detalleOtrosIngresos":{
+
+        },
+        "tituloPregrado":"ABOGADO",
+        "patrimonio":"0.00",
+        "celular":"3043619681",
+        "estado":"2 - ACTIVO"
+      }
+    }
+  }
+}

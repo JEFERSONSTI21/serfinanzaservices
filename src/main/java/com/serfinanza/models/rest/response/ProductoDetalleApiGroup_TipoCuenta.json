@@ -1,0 +1,29 @@
+{"responseHeaderOut": {
+  "Header":    {
+    "systemId": "IntercomBank",
+    "messageId": "ab8ae4d4-7e28-4469-8a89-06a35d365420",
+    "invokerDateTime": "2018-12-20",
+    "responseStatus": {"statusCode": "SUCCESS"},
+    "destination":       {
+      "name": "ProductosDetalleApiGroup",
+      "namespace": "http://www.serfinansa.co/productodetalle/external/1.0",
+      "operation": "TipoCuenta"
+    }
+  },
+  "Body": {"respuesta":    {
+    "status": "200",
+    "code": "01",
+    "message": "OK",
+    "data":       {
+      "codProducto": "04",
+      "descProducto": "AHORRO",
+      "fechaEmision": "2023/2/21",
+      "estado": "CUENTA ACTIVA",
+      "subProducto": "CAHP",
+      "producto": "2120",
+      "saldo": "1257522.59",
+      "idCliente": "63",
+      "cuenta": "212000008509"
+    }
+  }}
+}}

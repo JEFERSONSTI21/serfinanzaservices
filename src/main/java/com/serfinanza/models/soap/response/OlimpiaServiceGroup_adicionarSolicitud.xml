@@ -1,0 +1,26 @@
+<NS1:Envelope xmlns:NS1="http://schemas.xmlsoap.org/soap/envelope/">
+    <NS1:Header>
+        <NS2:responseHeaderOut xmlns:NS2="http://pragma.co/ents/common/BaseMessageFormat/V1">
+            <systemId>1</systemId>
+            <messageId>11d109ef-35e6-4c1a-83a0-199b495b2ac4</messageId>
+            <invokerDateTime>?</invokerDateTime>
+            <responseStatus>
+                <statusCode>SUCCESS</statusCode>
+            </responseStatus>
+            <destination>
+                <name>OlimpiaServiceGroup</name>
+                <namespace>http://www.serfinansa.co/Olimpia/external/1.0</namespace>
+                <operation>adicionarSolicitud</operation>
+            </destination>
+        </NS2:responseHeaderOut>
+    </NS1:Header>
+    <NS1:Body>
+        <NS2:adicionarSolicitudResponse xmlns:NS2="http://www.serfinansa.co/Olimpia/external/1.0/adicionarSolicitud">
+            <PeticionRegistrada>c832da1b-de71-4165-94e8-9db476f7b8f3</PeticionRegistrada>
+            <IdSolicitudCliente>72292090</IdSolicitudCliente>
+            <Estado>0</Estado>
+            <CodigoError>0</CodigoError>
+            <DescripcionError/>
+        </NS2:adicionarSolicitudResponse>
+    </NS1:Body>
+</NS1:Envelope>

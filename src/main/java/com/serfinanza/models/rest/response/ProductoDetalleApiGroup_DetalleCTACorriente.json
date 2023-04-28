@@ -1,0 +1,35 @@
+{"responseHeaderOut": {
+  "Header":    {
+    "systemId": "IntercomBank",
+    "messageId": "95545531-e645-4d25-bc29-dbed65561831",
+    "invokerDateTime": "2020-09-14",
+    "responseStatus": {"statusCode": "SUCCESS"},
+    "destination":       {
+      "name": "ProductosDetalleApiGroup",
+      "namespace": "http://www.serfinansa.co/productodetalle/external/1.0",
+      "operation": "detalleProductos"
+    }
+  },
+  "Body":    {
+    "respuesta":       {
+      "codigo": "00",
+      "descripcion": "Transacción exitosa"
+    },
+    "cuentas":       {
+      "numProducto": "221000001096",
+      "codProducto": "01-CC",
+      "nomProducto": "CUENTAS CORRIENTES",
+      "tipoProducto": "06",
+      "categoria": "06",
+      "estado": "CUENTA INACTIVA 1",
+      "fechaEmision": "2019/02/12",
+      "saldo": "0.00",
+      "numTarjeta": {},
+      "cupoSobregiro": "0.00",
+      "disponibleSobregiro": "0.00",
+      "referencia": "2210",
+      "saldoRetenido": "0.00",
+      "saldoCanje": "0.00"
+    }
+  }
+}}

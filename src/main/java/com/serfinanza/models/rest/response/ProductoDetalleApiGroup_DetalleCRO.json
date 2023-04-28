@@ -1,0 +1,34 @@
+{
+  "responseHeaderOut":{
+    "Header":{
+      "systemId":"IntercomBank",
+      "messageId":"${=java.util.UUID.randomUUID()}",
+      "invokerDateTime":"2020-09-14",
+      "responseStatus":{
+        "statusCode":"SUCCESS"
+      },
+      "destination":{
+        "name":"ProductosDetalleApiGroup",
+        "namespace":"http://www.serfinansa.co/productodetalle/external/1.0",
+        "operation":"detalleProductos"
+      }
+    },
+    "Body":{
+      "respuesta":{
+        "codigo":"00",
+        "descripcion":"Transacción exitosa",
+        "tarjeta":{
+          "referencia":"8036492207",
+          "fechaEmision":"20201120",
+          "fechalimitePago":"20210805",
+          "pagoMinimo":"0.00",
+          "pagominimoVencido":"0",
+          "pagoTotal":"0",
+          "disponibleTotal":"300000.00",
+          "disponibleAvance":"300000.00",
+          "estado":"Normal"
+        }
+      }
+    }
+  }
+}

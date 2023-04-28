@@ -1,0 +1,22 @@
+<NS1:Envelope xmlns:NS1="http://schemas.xmlsoap.org/soap/envelope/">
+    <NS1:Header>
+        <NS2:responseHeaderOut xmlns:NS2="http://pragma.co/ents/common/BaseMessageFormat/V1">
+            <systemId>Prueba</systemId>
+            <messageId>${=java.util.UUID.randomUUID()}</messageId>
+            <responseStatus>
+                <statusCode>SUCCESS</statusCode>
+            </responseStatus>
+            <destination>
+                <name>ClientesServiceGroup</name>
+                <namespace>http://www.serfinansa.co/clientes/external/1.0</namespace>
+                <operation>notificarAcuse</operation>
+            </destination>
+        </NS2:responseHeaderOut>
+    </NS1:Header>
+    <NS1:Body>
+        <NotificarAcuseRequest>
+            <CodigoRespuesta>E002</CodigoRespuesta>
+            <DescripcionRespuesta>ID TRANSACC NO EXISTE EN FACT</DescripcionRespuesta>
+        </NotificarAcuseRequest>
+    </NS1:Body>
+</NS1:Envelope>
